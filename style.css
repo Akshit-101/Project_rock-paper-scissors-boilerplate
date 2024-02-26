@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(175, 16, 248);
+    font-size: 4vw; 
+    font-weight: bolder;
+    margin-top: 10vh; 
+    text-align: center;
+}
+
+.logo {
+    width: 40%; 
+    max-width: 300px;
+}
+
+button {
+    background-color: rgba(233, 150, 122, 0);
+    border: none;
+    color: white;
+    margin-top: 20px; 
+    font-size: 3vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button img.playbtn {
+    height: auto;
+    width: 10%; 
+    margin-right: 10px; 
+}
+
+span {
+    font-size: 3vw; 
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 8vw; 
+    }
+
+    button {
+        font-size: 5vw; 
+    }
+
+    span {
+        font-size: 5vw; 
+    }
+}
